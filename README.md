@@ -124,7 +124,8 @@ Some benchmarks of different languages
 | C# Mono         | 25.74   | 3757.9     |
 | D Gdc           | 25.86   | 926.1      |
 | D Ldc           | 27.23   | 919.6      |
-| Perl            | 46.02   | 1635.4     |
+| Perl            | 31.36   | 1337.3     |
+| cperl           | 34.83   | 1325.4     |
 | Ruby Rbx        | 67.13   | 4681.0     |
 | Scala           | 356.09  | 2789.0     |
 
