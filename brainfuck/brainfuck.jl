@@ -73,7 +73,7 @@ function run(this::Program)
         pc = bracket_map[pc]
       end
     elseif ch == '.'
-      print(char(get(tape)))
+      print(Char(get(tape)))
     end
     pc += 1
   end

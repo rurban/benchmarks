@@ -21,7 +21,7 @@ echo Nim Clang
 echo Scala
 ../xtime.rb scala BrainFuck bench.b
 echo Javascript V8
-../xtime.rb d8 brainfuck.d8.js
+../xtime.rb v8 brainfuck.d8.js
 echo Javascript Node
 ../xtime.rb nodejs brainfuck.js bench.b
 echo Julia
@@ -32,6 +32,10 @@ echo Python Pypy
 ../xtime.rb pypy brainfuck.py bench.b
 echo Python
 ../xtime.rb python brainfuck.py bench.b
+echo Perl
+../xtime.rb perl brainfuck.pl bench.b
+echo cperl
+../xtime.rb cperl5.26.0-nt brainfuck.pl bench.b
 echo Ruby
 ../xtime.rb ruby brainfuck.rb bench.b
 echo Ruby Topaz

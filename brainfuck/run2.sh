@@ -1,3 +1,7 @@
+echo Perl
+../xtime.rb perl brainfuck.pl mandel.b > /dev/null
+echo cperl
+../xtime.rb cperl5.26.0-nt brainfuck.pl mandel.b > /dev/null
 echo Crystal
 ../xtime.rb ./brainfuck_cr mandel.b > /dev/null
 echo Go

@@ -1,7 +1,7 @@
 Brainfuck interepter and benchmark
 ----------------------------------
 
-In benchmark i using only standard language containers and compile keys, without any kind of hacks to fair compare.
+In benchmark I using only standard language containers and compile keys, without any kind of hacks to fair compare.
 
 To compile all: `sh build.sh`
 
