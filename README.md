@@ -60,7 +60,7 @@ Some benchmarks of different languages
 
 # Base64
 
-[Base64](https://github.com/kostya/benchmarks/tree/master/base64)
+[Base64](https://github.com/rurban/benchmarks/tree/master/base64)
 
 | Language        | Time,s  | Memory, Mb |
 | --------------- | ------- | ---------- |
@@ -86,6 +86,7 @@ Some benchmarks of different languages
 | Ruby JRuby9K    | 12.16   | 530.6      |
 | Ruby JRuby      | 12.65   | 514.9      |
 | Julia           | 14.76   | 380.2      |
+| cperl           | 26.19   | 94.7       |
 | Perl            | 33.30   | 99.7       |
 | Go Gcc          | 39.56   | 185.5      |
 
@@ -129,7 +130,7 @@ Some benchmarks of different languages
 
 # Matmul
 
-[Matmul](https://github.com/kostya/benchmarks/tree/master/matmul)
+[Matmul](https://github.com/rurban/benchmarks/tree/master/matmul)
 
 | Language        | Time,s  | Memory, Mb |
 | --------------- | ------- | ---------- |
@@ -156,6 +157,8 @@ Some benchmarks of different languages
 | Ruby JRuby      | 416.12  | 582.4      |
 | Ruby JRuby9k    | 467.59  | 608.3      |
 | Ruby Rbx        | 591.70  | 325.0      |
+| cperl           | 750.96  | 592.9      |
+| Perl5           | 823.79  | 589.7      |
 
 # Havlak
 
@@ -211,5 +214,6 @@ Intel(R) Core(TM) i5-2400 CPU @ 3.10GHz (Ubuntu 14.04.1 LTS x86_64)
 * rock 0.9.10-head codename sapphire, built on Wed Jul  1 20:09:58 2015
 * Felix version 15.04.03
 * Q KDB+ 3.3 2015.09.02 Copyright (C) 1993-2015 Kx Systems
-* perl 5, version 18, subversion 2 (v5.18.2) built for x86_64-linux-gnu-thread-multi
+* perl 5.24.1, built for x86_64-darwin-thread-multi
+* cperl 5.26.0, built for x86_64-darwin
 * The Glorious Glasgow Haskell Compilation System, version 7.10.2

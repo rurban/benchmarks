@@ -23,7 +23,7 @@ echo Scala
 echo Java
 ../xtime.rb java matmul 1500
 echo Javascript V8
-../xtime.rb d8 matmul.js -- 1500
+../xtime.rb v8 matmul.js -- 1500
 echo Julia Native
 ../xtime.rb julia matmul-native.jl 1500
 echo Julia
@@ -40,3 +40,5 @@ echo Ruby
 ../xtime.rb ruby matmul.rb 1500
 echo Perl
 ../xtime.rb perl matmul.pl 1500
+echo cperl
+../xtime.rb cperl5.26.0-nt matmul.cperl 1500

@@ -40,3 +40,7 @@ echo Perl
 ../xtime.rb perl -Iperllib/lib/perl5 test.pl
 echo Perl XS
 ../xtime.rb perl test-xs.pl
+echo cperl
+../xtime.rb cperl5.26.0-nt -Iperllib/lib/perl5 test.cperl
+echo cperl XS
+../xtime.rb cperl5.26.0-nt test-xs.cperl

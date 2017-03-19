@@ -1,10 +1,10 @@
 function matgen(n)
   tmp = 1.0 / n / n
-  [ float64(tmp * (i - j) * (i + j - 2)) for i=1:n, j=1:n ]
+  [ Float64(tmp * (i - j) * (i + j - 2)) for i=1:n, j=1:n ]
 end
 
 function mul_line(n, linea, lineb)
-  s = float64(0)
+  s = Float64(0)
   for i=1:n
     s += linea[i] * lineb[i]
   end
@@ -26,11 +26,11 @@ function main()
     n = int(ARGS[1])
   end
   t = time()
-  n = int(n / 2 * 2)
+  n = int(round(n / 2 * 2))
   a = matgen(n)
   b = matgen(n)
   c = mul(a, b)
-  v = int(n/2) + 1
+  v = int(round(n/2) + 1)
   println(c[v, v])
   println(time() - t)
 end
